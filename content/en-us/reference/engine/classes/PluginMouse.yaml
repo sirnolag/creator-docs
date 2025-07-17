@@ -4,14 +4,14 @@ memory_category: Instances
 summary: |
   The PluginMouse object gives `Class.Plugin|Plugins` access to the mouse. It
   works like the `Class.Mouse` object and can be obtained using the plugin
-  `Class.Plugin:GetMouse()` method.
+  `Class.plugin:GetMouse()` method.
 description: |
   The PluginMouse object gives `Class.Plugin|Plugins` access to the mouse. It
   works like the `Class.Mouse` object and can be obtained using the plugin
-  `Class.Plugin:GetMouse()` method.
+  `Class.plugin:GetMouse()` method.
 
   Note the PluginMouse can only be used when the plugin has been activated using
-  `Class.Plugin:Activate()`.
+  `Class.plugin:Activate()`.
 
   In addition to the functions from the `Class.Mouse` object, the PluginMouse
   includes the `Class.PluginMouse.DragEnter` function which keeps track of items
